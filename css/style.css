@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Serithai';
+    src: url('Serithai-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Serithai';
+    src: url('Serithai-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Serithai';
+    src: url('Serithai-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Serithai', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+	transition: 0.5s;
+    }
+    
+nav {
+    background: rgb(255,255,255);
+    background: linear-gradient(154deg, rgba(255,255,255,1) 0%, rgba(28,28,28,1) 71%);
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+}
+	
+nav .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .textField { 
+    position: relative;
+    max-width: 70%;
+    text-align: center;
+}
+
+.content .textField h2 {
+    color: white;
+    font-size: 5em;
+    line-height: 1.25em;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.content .textField p {
+    color: white;
+}
+
+#section0 {
+    background-image: url(cpu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {
+    background-image: url(JD.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 {
+    background-image: url(samsung-tv-mockup-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 {
+    background-color: black;
+    background-image: url(original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4 {
+    background-image: url(rtt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section5 {
+    background-image: url(ic_pixabay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section6 {
+    background-image: url(IMG_7776.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    line-height: 1.25em;
+    font-weight: 900;
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+}
